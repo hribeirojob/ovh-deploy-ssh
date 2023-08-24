@@ -1,4 +1,4 @@
-FROM alpine:3.12
+FROM alpine:3.13.12
 
 RUN apk --update add --no-cache bash openssh-client sshpass \
   && rm -rf /var/cache/apk/*
